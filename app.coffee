@@ -29,8 +29,8 @@ module.exports =
     collections(folder: 'posts', layout: 'post'),
     collections(folder: 'page', layout: 'post'),
     roots_rss_generator(
-      folder: "page"
-      output: "./views/feed.xml"
+      folder: "posts"
+      output: "./public/feed.xml"
       maxcount: 5
       settings:
         title: "New title"
